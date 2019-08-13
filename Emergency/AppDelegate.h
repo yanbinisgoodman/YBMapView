@@ -7,11 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MapController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+@property (nonatomic, strong) DZBaseNavigationController *rootController;
 @property (strong, nonatomic) UIWindow *window;
 
++ (AppDelegate *)globalDelegate;
+
+- (void)switchToRootView;
 
 @end
 

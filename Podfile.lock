@@ -1,0 +1,136 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - AMap3DMap (6.9.0):
+    - AMapFoundation (~> 1.5)
+  - AMapFoundation (1.5.7)
+  - AMapLocation (2.6.2):
+    - AMapFoundation (~> 1.4)
+  - AMapNavi (6.9.0):
+    - AMap3DMap (~> 6.7)
+    - AMapFoundation (~> 1.5)
+  - AMapSearch (6.9.0):
+    - AMapFoundation (~> 1.4)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - IQKeyboardManager (5.0.8)
+  - LKDBHelper (2.5.1):
+    - LKDBHelper/standard (= 2.5.1)
+  - LKDBHelper/standard (2.5.1):
+    - FMDB
+  - Masonry (1.1.0)
+  - MJExtension (3.1.0)
+  - MJRefresh (3.2.0)
+  - QLCreditPod/Common (0.1.2):
+    - AFNetworking
+    - FMDB
+    - LKDBHelper
+    - Masonry
+    - MJExtension
+    - QLCreditPod/NotificationModule
+    - TZImagePickerController (~> 2.0.1)
+    - XAspect
+  - QLCreditPod/LocationModule (0.1.2):
+    - AFNetworking
+    - FMDB
+    - LKDBHelper
+    - Masonry
+    - MJExtension
+    - QLCreditPod/Common
+    - TZImagePickerController (~> 2.0.1)
+  - QLCreditPod/NotificationModule (0.1.2):
+    - AFNetworking
+    - FMDB
+    - LKDBHelper
+    - Masonry
+    - MJExtension
+    - TZImagePickerController (~> 2.0.1)
+  - SFHFKeychainUtils (0.0.1)
+  - TZImagePickerController (2.0.1)
+  - WebViewJavascriptBridge (6.0.3)
+  - XAspect (1.0.5):
+    - XAspect/Core (= 1.0.5)
+    - XAspect/Macros (= 1.0.5)
+  - XAspect/Core (1.0.5):
+    - XAspect/Macros
+  - XAspect/Macros (1.0.5)
+
+DEPENDENCIES:
+  - AMapLocation
+  - AMapNavi
+  - AMapSearch
+  - FMDB
+  - IQKeyboardManager (~> 5.0.6)
+  - Masonry
+  - MJExtension
+  - MJRefresh
+  - "QLCreditPod/Common (from `git@gitlab.anniu-inc.com:frontend/iOS_pods/QLCreditPod.git`, commit `8840203fc2417428ee6ec8dcdaa8ac81dccf1c3e`)"
+  - "QLCreditPod/LocationModule (from `git@gitlab.anniu-inc.com:frontend/iOS_pods/QLCreditPod.git`, commit `8840203fc2417428ee6ec8dcdaa8ac81dccf1c3e`)"
+  - SFHFKeychainUtils (= 0.0.1)
+  - WebViewJavascriptBridge (~> 6.0.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - AMap3DMap
+    - AMapFoundation
+    - AMapLocation
+    - AMapNavi
+    - AMapSearch
+    - FMDB
+    - IQKeyboardManager
+    - LKDBHelper
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - SFHFKeychainUtils
+    - TZImagePickerController
+    - WebViewJavascriptBridge
+    - XAspect
+
+EXTERNAL SOURCES:
+  QLCreditPod:
+    :commit: 8840203fc2417428ee6ec8dcdaa8ac81dccf1c3e
+    :git: "git@gitlab.anniu-inc.com:frontend/iOS_pods/QLCreditPod.git"
+
+CHECKOUT OPTIONS:
+  QLCreditPod:
+    :commit: 8840203fc2417428ee6ec8dcdaa8ac81dccf1c3e
+    :git: "git@gitlab.anniu-inc.com:frontend/iOS_pods/QLCreditPod.git"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AMap3DMap: c80b264f08f179d9b0949b84c65fc1a51dec9d6f
+  AMapFoundation: 216d58448c80356434ac4332250a8fdb2f5c4d1e
+  AMapLocation: 89a7e4eb6040d32ba73c77a4966ecc66e46aa7c3
+  AMapNavi: 8e30c4b7cacb2c1fa642bd058debcfade5cf829f
+  AMapSearch: af02822537e55b85a4752e9df5c19e4b9da82031
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  IQKeyboardManager: 266cb7b1d11f94a3e71229d77f960f9a1b538e5b
+  LKDBHelper: 9a276ba51f2e16263d46a9517e16cc9b03472664
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 6b69b3bef2864fd550ce1a184eda219e321209d2
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  QLCreditPod: 65fdd5e4da916d81148b1921a25d47e9dd44018f
+  SFHFKeychainUtils: 9576b411a79a058f4d5381ace6f3242b9a62e664
+  TZImagePickerController: 34ecb53af8c349964394407e42b6e54e22589ebe
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+  XAspect: db50bf487f92dbb8557a7a5365556966c8493af8
+
+PODFILE CHECKSUM: 1d1c35cb3904225e615b1079e829a63cd4bac2e7
+
+COCOAPODS: 1.7.5
